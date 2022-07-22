@@ -22,4 +22,4 @@ jobs:
       - name: Run flake8
         run: flake8 --extend-ignore=D,E,F,WPS,Q .
       - name: Run mypy
-        run: mypy .
+        run: mypy main.py
