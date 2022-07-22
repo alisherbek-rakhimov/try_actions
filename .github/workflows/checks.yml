@@ -21,5 +21,5 @@ jobs:
           pip install -r requirements.txt
       - name: Run flake8
         run: flake8 --extend-ignore=D,E,F,WPS,Q .
-      - name: Rum mypy
-        run: mypy.
+      - name: Run mypy
+        run: mypy .
